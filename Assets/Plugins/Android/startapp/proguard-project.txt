@@ -1,0 +1,5 @@
+# StartApp
+-keep class com.startapp.** { *;}
+-dontwarn com.startapp.**
+-dontwarn android.webkit.JavascriptInterface
+-keepattributes Exceptions, InnerClasses, Signature, Deprecated, SourceFile, LineNumberTable, *Annotation*, EnclosingMethod

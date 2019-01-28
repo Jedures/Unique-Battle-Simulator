@@ -1,0 +1,181 @@
+fileFormatVersion: 2
+guid: 8d6c3b6897ccb7b4a921f0e0938a65d5
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Barbarian Wyder
+    100002: //RootNode
+    100004: Hammer
+    100006: Rig
+    100008: RigHead
+    100010: RigLArm1
+    100012: RigLArm2
+    100014: RigLArmCollarbone
+    100016: RigLArmFinger1
+    100018: RigLArmFinger2
+    100020: RigLArmPalm
+    100022: RigLArmThumb1
+    100024: RigLArmThumb2
+    100026: RigLLeg1
+    100028: RigLLeg2
+    100030: RigLLegAnkle
+    100032: RigLLegFoot1
+    100034: RigLLegPlatform
+    100036: RigMace
+    100038: RigNeck
+    100040: RigPelvis
+    100042: RigRArm1
+    100044: RigRArm2
+    100046: RigRArmCollarbone
+    100048: RigRArmFinger1
+    100050: RigRArmFinger2
+    100052: RigRArmPalm
+    100054: RigRArmThumb1
+    100056: RigRArmThumb2
+    100058: RigRLeg1
+    100060: RigRLeg2
+    100062: RigRLegAnkle
+    100064: RigRLegFoot1
+    100066: RigRLegPlatform
+    100068: RigShield
+    100070: RigSpine
+    100072: RigSpine1
+    100074: RigSpine2
+    100076: Shield
+    400000: Barbarian Wyder
+    400002: //RootNode
+    400004: Hammer
+    400006: Rig
+    400008: RigHead
+    400010: RigLArm1
+    400012: RigLArm2
+    400014: RigLArmCollarbone
+    400016: RigLArmFinger1
+    400018: RigLArmFinger2
+    400020: RigLArmPalm
+    400022: RigLArmThumb1
+    400024: RigLArmThumb2
+    400026: RigLLeg1
+    400028: RigLLeg2
+    400030: RigLLegAnkle
+    400032: RigLLegFoot1
+    400034: RigLLegPlatform
+    400036: RigMace
+    400038: RigNeck
+    400040: RigPelvis
+    400042: RigRArm1
+    400044: RigRArm2
+    400046: RigRArmCollarbone
+    400048: RigRArmFinger1
+    400050: RigRArmFinger2
+    400052: RigRArmPalm
+    400054: RigRArmThumb1
+    400056: RigRArmThumb2
+    400058: RigRLeg1
+    400060: RigRLeg2
+    400062: RigRLegAnkle
+    400064: RigRLegFoot1
+    400066: RigRLegPlatform
+    400068: RigShield
+    400070: RigSpine
+    400072: RigSpine1
+    400074: RigSpine2
+    400076: Shield
+    2300000: Hammer
+    2300002: Shield
+    3300000: Hammer
+    3300002: Shield
+    4300000: Shield
+    4300002: Hammer
+    4300004: Barbarian Wyder
+    7400000: walk
+    9500000: //RootNode
+    13700000: Barbarian Wyder
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.presage"
+    android:versionCode="308"
+    android:versionName="3.0.8" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+
+    <application>
+        <service
+            android:name="io.presage.PSD"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name="io.presage.EulaActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver android:name="io.presage.receiver.AlarmReceiver" />
+        <receiver android:name="io.presage.common.profig.schedule.ProfigAlarmReceiver" />
+
+        <service
+            android:name="io.presage.common.profig.schedule.ProfigSyncIntentService"
+            android:exported="false" />
+        <service
+            android:name="io.presage.common.profig.schedule.ProfigJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="io.presage.interstitial.InterstitialActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Presage.AdScreen" />
+        <activity
+            android:name="io.presage.interstitial.InterstitialTransparentActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Presage.AdScreen.Translucent" />
+        <activity
+            android:name="io.presage.mraid.browser.ShortcutActivity"
+            android:theme="@style/Presage.AdScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

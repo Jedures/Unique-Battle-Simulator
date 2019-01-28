@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="presage_app_install_notification_title">App launch</string>
+    <string name="presage_app_install_wait">Waiting to install app</string>
+    <style name="Presage.AdScreen" parent="@android:style/Theme.Light.NoTitleBar"/>
+    <style name="Presage.AdScreen.Translucent" parent="@android:style/Theme.Translucent.NoTitleBar"/>
+</resources>

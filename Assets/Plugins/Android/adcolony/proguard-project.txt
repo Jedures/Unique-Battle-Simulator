@@ -1,0 +1,9 @@
+# Adcolony
+-keep class com.jirbo.adcolony.** { *;}
+-keep class com.adcolony.** { *;}
+-keep class com.immersion.** { *;}
+-dontnote com.immersion.**
+-dontwarn android.webkit.**
+-dontwarn com.jirbo.adcolony.**
+-dontwarn com.adcolony.**
+-keepclassmembers class com.adcolony.sdk.ADCNative** { *; }
