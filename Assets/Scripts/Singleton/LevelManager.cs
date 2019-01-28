@@ -20,7 +20,11 @@ namespace Singleton
 		[HideInInspector]
 		public bool isStart = false;
 	    
+		[Header("Level Setting")]
 		public List<GameObject> enemyPrefab;
+
+		[SerializeField] 
+		private int countEnemies;
 	  
 		[Header("UI Animators")] 
     	public List<Animator> animators;
@@ -76,7 +80,12 @@ namespace Singleton
 				Destroy(_levelManager);
 
 			m_MoneyCash = Static.Money;
-		} 
+		}
+
+		private void Start()
+		{
+			SpawnEnemies(countEnemies);
+		}
 		
 		#endregion
 		
@@ -129,11 +138,9 @@ namespace Singleton
 		
 		#region Level Manager
 
-		public void StartGame(int count)
+		public void StartGame()
 		{
 			isStart = true;
-			
-			SpawnEnemies(count);
 
 			foreach (var animator in animators)
 			{
@@ -180,9 +187,7 @@ namespace Singleton
 
 			Static.LevelComplete = levelNumber;
 			
-			Social.ReportScore(m_EnemyCount - enemies.Count, GPGSIds.leaderboard_kills, (bool success) => {
-				// handle success or failure
-			});
+			Social.ReportScore(m_EnemyCount - enemies.Count, GPGSIds.leaderboard_kills, (bool success) => {});
 			
 			Static.Save();
 		}
@@ -196,9 +201,7 @@ namespace Singleton
 			
 			losePanel.SetActive(true);
 			
-			Social.ReportScore(m_EnemyCount - enemies.Count, GPGSIds.leaderboard_kills, (bool success) => {
-				// handle success or failure
-			});
+			Social.ReportScore(m_EnemyCount - enemies.Count, GPGSIds.leaderboard_kills, (bool success) => {});
 			
 			Static.Save();
 		}

@@ -516,10 +516,11 @@ MonoBehaviour:
   knob: {fileID: 837168993}
   sensitivity: 20
   zoomSpeed: 30
-  rotateSpeed: 0.03
   zoomIndicator: {fileID: 1051289064}
   leftPanel: {fileID: 1814003945}
   myCamera: {fileID: 1115168030}
+  noTouch: 0
+  isZoom: 0
 --- !u!114 &262305534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2579,7 +2580,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1115168028}
   m_LocalRotation: {x: 0.06162845, y: -0.70441604, z: 0.06162845, w: 0.70441604}
-  m_LocalPosition: {x: 79.4, y: 14.8, z: 4.2}
+  m_LocalPosition: {x: 45, y: 14.8, z: 4.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1925167660}
@@ -4854,17 +4855,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isStart: 0
-  isSandbox: 0
   enemyPrefab:
   - {fileID: 1019280345379360, guid: 4a85708628486054d8ebe8cd11833b4a, type: 2}
   - {fileID: 1029972132681868, guid: 7b72a3e0e4c44684a909c21afa3604a1, type: 2}
+  countEnemies: 50
   animators:
   - {fileID: 1814003945}
   - {fileID: 545984666}
-  spawnPoints: []
   winPanel: {fileID: 348685966}
   losePanel: {fileID: 1950623146}
   joysticPanel: {fileID: 1353952916}
+  spawnPoints: []
+  isSandbox: 0
+  enemies: []
+  allies: []
   levelNumber: 5
   levelWin: 150
 --- !u!4 &1910848834

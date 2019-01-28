@@ -22,8 +22,6 @@ namespace Statics
 
 		public static void Load()
 		{
-			PlayerPrefs.DeleteAll();
-			
 			if (!PlayerPrefs.HasKey("Money"))
 				return;
 			
