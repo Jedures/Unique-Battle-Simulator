@@ -11,7 +11,6 @@ namespace LevelController
 {
 	public class SpawnAllies : MonoBehaviour
 	{
-
 		[Header("Camera")] 
 		public UnityEngine.Camera myCamera;
 

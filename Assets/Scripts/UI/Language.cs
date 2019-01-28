@@ -7,7 +7,6 @@ namespace UI
 {
 	public class Language : MonoBehaviour
 	{
-		
 		private Text m_Text;
 		
 		public string rusText;

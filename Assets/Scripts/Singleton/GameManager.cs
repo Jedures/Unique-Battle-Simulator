@@ -2,8 +2,8 @@
 
 namespace Singleton
 {
-    public class GameManager : MonoBehaviour {
-
+    public class GameManager : MonoBehaviour 
+    {
         public static GameManager gameManager = null;
  
         public float audioLevel = 100.0f;
